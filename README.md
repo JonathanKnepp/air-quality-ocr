@@ -1,5 +1,7 @@
-./build.sh -> Builds docker image
-./attach.sh -> Attach to docker shell
+# Useful commands
 
-python manage.py capture_image
-python manage.py ocr_images
+> `./build.sh` Builds docker image <br />
+> `./attach.sh` Attach to docker shell <br />
+
+> `python manage.py capture_image` <br />
+> `python manage.py ocr_images` <br />
