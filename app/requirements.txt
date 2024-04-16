@@ -1,0 +1,25 @@
+# OCR
+pytesseract~=0.3.10
+opencv-python~=4.9.0.80
+numpy==1.21.2
+easyocr~=1.7.1
+paddleocr>=2.0.1
+PyMuPDF==1.21.1
+paddlepaddle
+openpyxl
+
+# django
+django<5
+django-jazzmin
+django-extensions
+django-admin-charts
+django-admin-tools
+python-decouple
+gunicorn
+psycopg2-binary
+
+# background tasks
+flower
+celery
+django-celery-beat
+django-celery-results

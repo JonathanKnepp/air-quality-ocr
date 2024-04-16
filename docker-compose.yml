@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: app/
+      dockerfile: Dockerfile
+    entrypoint: ["/bin/bash", "docker/build/entrypoint.sh"]
+    env_file: app/.env
+    ports:
+      - "2222:2222"
+      - "5005:5005"
+      - "5555:5555"
+      - "5672:5672"
+    volumes:
+      - ./app:/opt/app
+    devices:
+      - /dev/video0:/dev/video0

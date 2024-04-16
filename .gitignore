@@ -1,0 +1,14 @@
+.idea
+/app/static/*
+/app/aqi/inference/*
+/app/images/queue/*
+/app/images/old/*
+/app/images/done/*
+/app/images/done/crops/*
+
+!/app/images/queue/.gitkeep
+!/app/images/done/.gitkeep
+!/app/images/done/crops
+!/app/images/done/crops/.gitkeep
+
+!/app/images/queue/test_set.zip
